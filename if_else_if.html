@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+</head>
+<body>
+<script>
+    let username = prompt(' Who are you? ');
+    if (username == 'Admin') {
+        let pass = prompt(' Please enter pass ');
+        if (pass == 'Admin')
+            alert(" Wellcome my boss");
+        else if (pass == null) {
+            alert(" Canceled ");
+        } else {
+            alert(' Pass not correct ');
+        }
+    } else if (username == null) {
+        alert(' Canceled ');
+    } else {
+        alert(' I dont know you ');
+    }
+</script>
+</body>
+</html>
